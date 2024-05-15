@@ -9,7 +9,7 @@
  *
  */
 
-struct dorm_t
+struct dorm_t    
 {
   char name[20];
   unsigned short capacity;

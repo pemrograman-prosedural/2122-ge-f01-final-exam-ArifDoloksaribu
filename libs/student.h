@@ -32,5 +32,5 @@ void move_student(struct student_t *_student, int size, struct dorm_t *_dorm, in
 
 void student_leave(struct student_t *student, struct dorm_t *dorm);
 
-
+      
 #endif

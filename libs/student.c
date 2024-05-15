@@ -40,7 +40,7 @@ void student_print_all_detail(struct student_t *_student, int size){
                 printf("%s|%s|%s|female|left\n", _student[a].id, _student[a].name, _student[a].year);
            }
 
-        }
+        }      
         else{
             if(_student[a].gender == GENDER_MALE){
                 printf("%s|%s|%s|male|%s\n", _student[a].id, _student[a].name, _student[a].year, _student[a].dorm->name);

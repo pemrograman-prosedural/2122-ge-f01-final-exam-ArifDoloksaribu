@@ -15,7 +15,7 @@ struct dorm_t create_dorm(char *_name, unsigned short _capacity, enum gender_t _
     dorm.gender = _gender;
     dorm.residents_num = 0;
     return dorm;
-    }
+    }   
 
 void print_dorms(struct dorm_t *_dorm, int size){
       for(int a=0; a<size; a++){

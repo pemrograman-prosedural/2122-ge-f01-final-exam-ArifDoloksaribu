@@ -38,7 +38,7 @@ int main(int _argc, char **_argv)
         else if(strcmp(masukan, "student-print-all-detail")==0){
             student_print_all_detail(student, i);
             continue;
-        }
+        }    
         argument = strtok(masukan, "#");
         if (strcmp(argument, "dorm-add") == 0) {
             token = strtok(NULL, "#");
