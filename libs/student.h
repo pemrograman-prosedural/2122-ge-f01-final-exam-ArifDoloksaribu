@@ -24,7 +24,7 @@ struct student_t create_student(char *_id, char *_name, char *_year,
 
 void print_stu(struct student_t *_student, int size);
 
-void student_print_all_detail(struct student_t *_student, int size, int sizen);
+void student_print_all_detail(struct student_t *_student, int size);
 
 void assign_student(struct student_t *_student, int size, struct dorm_t *_dorm, int size_dorm);
 
