@@ -22,4 +22,15 @@ struct student_t
 struct student_t create_student(char *_id, char *_name, char *_year,
                                 enum gender_t _gender);
 
+void print_stu(struct student_t *_student, int size);
+
+void student_print_all_detail(struct student_t *_student, int size, int sizen);
+
+void assign_student(struct student_t *_student, int size, struct dorm_t *_dorm, int size_dorm);
+
+void move_student(struct student_t *_student, int size, struct dorm_t *_dorm, int size_dorm);
+
+void student_leave(struct student_t *student, struct dorm_t *dorm);
+
+
 #endif
